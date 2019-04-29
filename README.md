@@ -1,6 +1,6 @@
 # Devise Bootstrapped
 
-This gem tries to give you a nicer place to start with your views for your Devise model when you're using Bootstrap 3.
+This gem tries to give you a nicer place to start with your views for your Devise model when you're using Bootstrap
 
 You can find usage information below, but the gist of it is you'll run `rails g devise:views:bootstrapped` instead of the normal devise:views.
 
@@ -12,12 +12,6 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'devise-bootstrapped'
-```
-
-A Bootstrap v4 version is available if you use the bootstrap4 branch from github
-
-```ruby
-gem 'devise-bootstrapped', github: 'king601/devise-bootstrapped', branch: 'bootstrap4'
 ```
 
 And then execute:
@@ -32,15 +26,6 @@ To use the Bootstrap views generator you'll want to have Devise and Bootstrap in
 `rails generate devise:views:bootstrapped`
 
 If you've already generated the Devise views you can use the -f argument to force an override but that will erase any of the changes you've made!
-
-## Upgrading to Bootstrap v4
-
-To upgrade to v4 you can force override the views, or you can modify each view's offsets to use the new syntax.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/l3x/devise-bootstrapped. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 
 ## License
 
